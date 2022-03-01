@@ -12,7 +12,7 @@ Instale usando `npm install -g`. Para iniciar a verificação, utilize `node inf
 ## Exemplo de uso
 
 ```node
-node infosistema.js
+# node infosistema.js
 
     💻 Informações da CPU
        - Core Físico: 4
