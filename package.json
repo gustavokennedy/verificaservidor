@@ -1,0 +1,15 @@
+{
+  "name": "verificaservidor",
+  "version": "1.0.0",
+  "description": "Uso de JS, Node e NPM para verificação de dados do sistema/servidor. Utilizando systeminformation.io.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "systeminformation": "^5.11.5"
+  }
+}
