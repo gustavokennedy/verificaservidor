@@ -1,5 +1,7 @@
 // Por Gustavo Kennedy Renkel
 // Criado em 28/02/2022
+// Editado em 23/06/22
+
 const si = require('systeminformation');
 
 async function order(){
@@ -87,7 +89,7 @@ async function order(){
         - Imagens: ${dockerInfo.images}
     `)
   })
-  // Nginx & MySQL (verifica processo)
+  // Nginx & MySQL
   console.log('Verificando Nginx e MySQL:'); await si.processLoad('nginx, mysql').then(data => console.log(data));
 }
 order()
